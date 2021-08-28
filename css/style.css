@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+
+body {
+  text-align: center;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 20px;
+}
+
+ i {
+  color: hsl(223, 87%, 63%);
+  background-color: white;
+  padding: 7px;
+}
+
+.btn {
+  background-color: hsl(223, 87%, 63%);
+  width: 100%;
+  padding: 18px;
+  color: white;
+}
+div img {
+  width: 60vw;
+}
+.container {
+  width: 60vw;
+}
+input {
+  width: 100%;
+  padding: 15px;
+  border-color: hsl(0, 0%, 59%);
+}
+#errorMsg {
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 40px;
+  font-size: 14px;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+i:hover {
+  background-color: hsl(223, 87%, 63%);
+  color: white;
+}
+.btn:hover {
+  background-color: hsl(223, 100%, 88%);
+  color: white;
+}
+@media (max-width:400px) {
+  .container {
+    width: 90vw;
+  }
+  div img {
+    width: 90vw;
+  }
+}
+@media (min-width:500px) and (max-width:800px) {
+  .container {
+    width: 70vw;
+  }
+  .btn {
+    padding: 17px;
+  }
+  div img {
+    width: 70vw;
+  }
+}
